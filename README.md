@@ -77,6 +77,17 @@ This lab demonstrates how to configure VLANs, assign access ports, and enable in
 - no shutdown
 - exit
 
+- ## Screenshots
+
+### Network Topology
+![Topology](01-network-topology.png)
+
+### VLAN Verification
+![VLAN Brief](02-show-vlan-brief.png)
+
+### SVI Verification
+![IP Interface Brief](03-show-ip-interface-brief.png)
+
 
   ## Verification
 
