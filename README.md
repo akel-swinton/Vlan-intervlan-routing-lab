@@ -82,22 +82,22 @@ This lab demonstrates how to configure VLANs, assign access ports, and enable in
 
 - show vlan brief
 -  Confirmed VLANs 10, 20, and 30 active with correct port assignments
--  : ∙ VLAN 10 Sales — Fa0/1
--  ∙ VLAN 20 HR — Fa0/2
--  ∙ VLAN 30 IT — Fa0/3
+-  VLAN 10 Sales — Fa0/1
+-   VLAN 20 HR — Fa0/2
+-  ∙VLAN 30 IT — Fa0/3
 
 -  show ip interface brief Confirmed SVI status:
--   ∙ Vlan10 — 192.168.10.1 — up/up
--   ∙ Vlan20 — 192.168.20.1 — up/up
--   ∙ Vlan30 — 192.168.30.1 — up/down (no end device connected to Fa0/3 in simulation)
+-   Vlan10 — 192.168.10.1 — up/up
+-   Vlan20 — 192.168.20.1 — up/up
+-   Vlan30 — 192.168.30.1 — up/down (no end device connected to Fa0/3 in simulation)
 -
 -   Key Concepts Demonstrated
--   ∙ VLAN segmentation — isolating departmental traffic at Layer 2
--   ∙ Access port configuration — assigning switch ports to specific VLANs
--   ∙ Layer 3 switching — using SVIs instead of a router for inter-VLAN routing
--   ∙ IP routing — enabling the multilayer switch to route between subnets Tools Used
--   ∙ Cisco Packet Tracer
--   ∙ Cisco IOS CLI
+-   VLAN segmentation — isolating departmental traffic at Layer 2
+-   Access port configuration — assigning switch ports to specific VLANs
+-   Layer 3 switching — using SVIs instead of a router for inter-VLAN routing
+-  IP routing — enabling the multilayer switch to route between subnets Tools Used
+-  Cisco Packet Tracer
+-  Cisco IOS CLI
 -
    Author Akel Swinton — github.com/akel-swinton
 
